@@ -4,7 +4,7 @@
 
 {
     "name": "Sequence Resolutions for El Salvador",
-    "summary": "Resolution of the MH SV for the sequence.",
+    "summary": "Resolution of the DGII SV for the sequence.",
     "version": "12.0.1.0.0",
     "license": "AGPL-3",
     "website": "https://github.com/exaap/l10n-elsalvador",
