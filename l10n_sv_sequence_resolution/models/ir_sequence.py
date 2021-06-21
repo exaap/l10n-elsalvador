@@ -12,7 +12,4 @@ class IrSequence(models.Model):
     remaining_numbers = fields.Integer(string='Remaining Numbers',
                                        default=False)
     remaining_days = fields.Integer(string='Remaining Days', default=False)
-    dgii_class = fields.Selection(selection=[('1',
-                                              'PRINTED BY PRINTER OR TICKETS'),
-                                             ('2', 'SINGLE FORM')],
-                                  string='Class Document')
+   
