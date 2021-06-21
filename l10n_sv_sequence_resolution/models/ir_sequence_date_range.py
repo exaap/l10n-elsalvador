@@ -8,6 +8,9 @@ from odoo import fields, models, api
 class IrSequenceDateRange(models.Model):
     _inherit = 'ir.sequence.date_range'
 
+    use_mh_control = fields.Boolean(string='Use MH Resolutions Control?',
+                                    related='sequence_id.use_mh_control',
+                                    store=False)
     prefix = fields.Char(string='Prefix')
     resolution_number = fields.Char(string='Resolution Number')
     number_from = fields.Integer(string='Initial Number', default=False)

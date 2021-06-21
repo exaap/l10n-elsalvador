@@ -12,6 +12,6 @@
     "Alejandro Olano Github@alejo-code",
     "category": "Localization",
     "depends": ["base", "account"],
-    "data": ["views/ir_sequence_views.xml", "views/account_invoice_views.xml"],
+    "data": ["views/ir_sequence_views.xml"],
     "installable": True,
 }

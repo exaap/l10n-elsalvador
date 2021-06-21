@@ -15,7 +15,11 @@ from odoo.exceptions import ValidationError
 class IrSequence(models.Model):
     _inherit = 'ir.sequence'
 
-    use_dian_control = fields.Boolean(string='Use MH Resolutions Control?')
+    use_mh_control = fields.Boolean(string='Use MH Resolutions Control?')
     remaining_numbers = fields.Integer(string='Remaining Numbers',
                                        default=False)
     remaining_days = fields.Integer(string='Remaining Days', default=False)
+    mh_class = fields.Selection(selection=[
+        ('1', 'IMPEROSO POR IMPRENTA O TIQUETES'), ('2', 'FORMULARIO UNICO')
+    ],
+                                string='Class Document')
