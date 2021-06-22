@@ -17,3 +17,4 @@ class AccountJournal(models.Model):
                     'Tax Credit Voucher'), ('05',
                                             'Credit Note'), ('06',
                                                              'Debit Note')])
+    
