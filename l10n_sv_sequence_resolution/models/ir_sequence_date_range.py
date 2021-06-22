@@ -17,4 +17,5 @@ class IrSequenceDateRange(models.Model):
                                  default=False,
                                  size=100)
     number_to = fields.Integer(string='Final Number', default=False)
+    serial_document = fields.Char(string='Serial Document')
     active_resolution = fields.Boolean(string='Active Resolution?')
